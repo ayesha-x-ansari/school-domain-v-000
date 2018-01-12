@@ -31,7 +31,7 @@ class School
   end
 
 def sort
-  roster.extend(KeyValueSorter).sort_all
+  rosterS.sort_all
 end
 end
 
