@@ -27,5 +27,5 @@ class School
   end
 end
 
-school = School.new
+school = School.new("New School")
 school.add_student("aaa", 9)
