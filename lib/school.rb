@@ -14,7 +14,7 @@ class School
     if @roster[grade] = nil
       @roster[grade] = [name]
     else
-      @roster[geade] << [name]
+      @roster[grade] << [name]
     end
   end
 
@@ -26,3 +26,6 @@ class School
     @roster[grade]
   end
 end
+
+school = School.new
+school.add_student("aaa", 9)
