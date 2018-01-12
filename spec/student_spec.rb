@@ -6,7 +6,7 @@ describe 'School' do
   end
 
   describe "::new" do
-    xit 'has an empty roster when initialized' do
+    it 'has an empty roster when initialized' do
       expect(@school.roster.length).to eq(0)
     end
   end
