@@ -11,7 +11,7 @@ class School
 
 
   def add_student(name, grade)
-    if @roster[grade] = empty
+    if @roster[grade].empty?
       puts "aaa"
       @roster[grade] = [name]
     else
