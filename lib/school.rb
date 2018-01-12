@@ -12,7 +12,7 @@ class School
 
   def add_student(name, grade)
     puts @roster[grade]
-    if @roster[grade] = nil
+    if @roster.has_key?(grade)
       puts "aaa"
       @roster[grade] = [name]
     else
