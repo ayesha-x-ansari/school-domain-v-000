@@ -14,11 +14,11 @@ class School
     puts @roster[grade]
     if @roster.has_key?(grade)
       puts "key present"
-      @roster[grade] << name
+      @roster[grade] << name     # Need bracket for the first element for update bracket is not required
     else
       puts "key not present"
       @roster[grade] = []
-      @roster[grade] = [name]
+      @roster[grade] = [name]   # Need bracket for the first element
     end
   end
 
