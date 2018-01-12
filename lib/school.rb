@@ -31,7 +31,7 @@ class School
   end
 
 def sort
-  rosterS.sort_all
+  @rosterS.sort_all
 end
 end
 
