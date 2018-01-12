@@ -31,7 +31,7 @@ class School
   end
 
 def sort
-  hash.extend(KeyValueSorter).sort_all
+  roster.extend(KeyValueSorter).sort_all
 end
 end
 
