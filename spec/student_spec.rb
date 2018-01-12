@@ -46,7 +46,7 @@ describe 'School' do
   end
 
   describe "#sort" do
-    xit 'is able to sort the students' do
+    it 'is able to sort the students' do
       @school.add_student("Homer Simpson", 9)
       @school.add_student("Bart Simpson", 9)
       @school.add_student("Avi Flombaum", 10)
