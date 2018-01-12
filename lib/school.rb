@@ -18,7 +18,7 @@ class School
     else
       puts "key not present"
       @roster[grade] = []
-      @roster[grade] = [name]   # Need bracket for the first element
+      @roster[grade] = name   # Need bracket for the first element
     end
   end
 
