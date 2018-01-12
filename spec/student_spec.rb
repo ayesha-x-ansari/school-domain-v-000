@@ -17,14 +17,14 @@ describe 'School' do
       expect(@school.roster).to eq({10 => ["AC Slater"]})
     end
 
-    it 'is able to add multiple students to a class (grade)' do
+    xit 'is able to add multiple students to a class (grade)' do
       @school.add_student("Jeff Baird", 10)
       @school.add_student("Blake Johnson", 10)
 
       expect(@school.roster).to eq({10 => ["Jeff Baird", "Blake Johnson"]})
     end
 
-    xit 'is able to add students to different grades' do
+    it 'is able to add students to different grades' do
       @school.add_student("Homer Simpson", 9)
       @school.add_student("Jeff Baird", 10)
       @school.add_student("Avi Flombaum", 10)
