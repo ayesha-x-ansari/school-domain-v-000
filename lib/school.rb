@@ -16,7 +16,7 @@ class School
       puts "aaa"
       @roster[grade] << [name]
     else
-      puts "vv"
+      @roster[grade] = []
       @roster[grade] = [name]
     end
   end
