@@ -11,9 +11,11 @@ class School
 
 
   def add_student(name, grade)
-    if @roster[grade].length  = 0
+    if @roster[grade] = nil
+      puts "aaa"
       @roster[grade] = [name]
     else
+      puts "vv"
       @roster[grade] << [name]
     end
   end
