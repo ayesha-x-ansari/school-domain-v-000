@@ -11,6 +11,7 @@ class School
 
 
   def add_student(name, grade)
+    puts @roster[grade]
     if @roster[grade] = nil
       puts "aaa"
       @roster[grade] = [name]
