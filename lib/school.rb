@@ -14,10 +14,10 @@ class School
     puts @roster[grade]
     if @roster.has_key?(grade)
       puts "aaa"
-      @roster[grade] = [name]
+      @roster[grade] << [name]
     else
       puts "vv"
-      @roster[grade] << [name]
+      @roster[grade] = [name]
     end
   end
 
